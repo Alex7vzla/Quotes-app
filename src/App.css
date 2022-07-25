@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container {
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+.QuoteBox {
+    padding: 0 5px;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 2px 2px 8px #000;
+    padding: 15px;
+    margin: 0 auto;
+    min-width: 310px;
+    border-radius: 30px;
+}
+
+.quote {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.author {
+    font-size: 1.1rem;
+    text-align: end;
+    font-style: italic;
+    font-weight: 500;
+    margin: 20px 0 6px;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    box-shadow: 2px 2px 4px grey;
+    cursor: pointer;
+}
